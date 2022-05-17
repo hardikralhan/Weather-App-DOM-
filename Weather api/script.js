@@ -1,4 +1,4 @@
-const api_key = "55fa57c56fe9c5d2897c3af9bd8f435b";
+const api_key = "<Insert Api Key Here>";
 
 function search(city) {
     fetch("https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + api_key)
